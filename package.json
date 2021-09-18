@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "(cd server && node Backend.js) & (cd ..) & ( cd client && npm run start)"
+  },
+
+  "dependencies": {
+    "concurrently": "^6.1.0"
+  }
+}
